@@ -1,3 +1,3 @@
-import { templateService } from "./templateService";
+import { templateService } from "./templateService"
 
-export {templateService};
+export { templateService }

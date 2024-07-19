@@ -1,16 +1,15 @@
-import express from "express";
-import routes from "./routes";
+import express from "express"
+import routes from "./routes"
 
 // init express app
-const app = express();
+const app = express()
 
 // attach routes
-app.use("/", routes);
+app.use("/", routes)
 
 // default route
 app.get("/", (req, res) => {
-  res.send("Service is running");
-});
+    res.send("Service is running")
+})
 
-
-export default app;
+export default app
