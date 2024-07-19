@@ -12,4 +12,4 @@ RUN npx tsc
 
 EXPOSE ${PORT}
 
-CMD ["node", "dist/index.js"]
+CMD ["node", "dist/server.js"]
